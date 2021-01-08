@@ -1,5 +1,5 @@
 body{
-    margin: 3% 8%;
+    margin: 2% 7%;
     background-color: hsl(0, 0%, 100%);
     font-size: 15px;
     font-family: 'Spartan', sans-serif;
@@ -16,7 +16,6 @@ body{
 .social-info{
     min-width: 350px;
     width: 45%;
-    margin: 1rem;
 }
 .social-info-heading{
     margin: 0.75rem 0;
@@ -37,10 +36,10 @@ body{
     font-weight: 700;
     background-color: hsl(300, 24%, 96%);
     border-radius: 5px;
-    margin: 0.57rem;
-    padding: 0.5rem 1rem;
-    min-width: 350px;
-    width: 75%;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    min-width: 333px;
+    width: 86%;
     text-align: center;
     display: flex;
     align-items: center;
@@ -51,30 +50,26 @@ body{
 }
 .comments-section{
     display: flex;
-    margin: 0 auto;
     color: hsl(300, 24%, 96%)
 }
 .customer{
     background-color: hsl(300, 43%, 22%);
     border-radius: 10px;
-    margin: 0.5rem;
     padding: 1.5rem;
-    max-height: 151px;
+    margin: 1rem 0;
+    max-height: 191px;
 }
 .profile-photo{
     border-radius: 50%;
     width: 70%;
 }
 .name{
-    margin: 0.5rem 0.75rem;
     font-weight: 400;
 }
 .comment{
-    margin: 0.5rem 0;
     font-size: 14px;
 }
 .buyer-type{
-    margin: 0.5rem 0.75rem;
     font-weight: 400;
     color: hsl(333, 80%, 67%);
 }
@@ -95,16 +90,22 @@ body{
     }
 }
 @media only screen and (min-width: 1250px){
+    .ratings{
+        margin-left: 4rem;
+    }
     .review:nth-child(2){
         margin: 0.75rem 0 0.75rem 3.75rem;
     }
     .review:nth-child(3){
-        margin: 0.75rem 0.75rem 0.75rem 6.75rem;
+        margin: 0.75rem 0rem 0.75rem 6.75rem;
+    }
+    .customer:nth-child(1){
+        margin: 1rem 0.5rem 1rem 0;
     }    
     .customer:nth-child(2){
-        margin: 2rem 0.5rem;
+        margin: 2.5rem 0.5rem;
     }
     .customer:nth-child(3){
-        margin: 3rem 0.5rem;
+        margin: 4.5rem 0rem 4.5rem 0.5rem;
     }
 }
